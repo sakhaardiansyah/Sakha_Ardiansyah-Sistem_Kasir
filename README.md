@@ -7,5 +7,8 @@ Sistem Kasir ini digunakan untuk menghitung jumlah barang dan harga barang yang 
 -pseudocode.txt
 -README.md
 
+Dikerjakan Oleh :
+- 'Sakha Ardiansyah - FE5319718'
+
 
 
