@@ -1,0 +1,22 @@
+STORE "kode barang" AS INTEGER WITH VALUE
+STORE "jumlah beli" AS INTEGER WITH VALUE
+STORE "harga barang" AS INTEGER WITH VALUE
+STORE "total bayar" AS INTEGER WITH 0
+
+IF "kode barang" SAME WITH "3"
+    STORE "harga barang" WITH "120000"
+	STORE "total bayar" WITH "harga barang" * "jumlah beli"
+	DISPLAY "total bayar"
+
+  ELSE IF "kode barang" SAME WITH "4"
+        STORE "harga barang" WITH "105000"
+	    STORE "total bayar" WITH "harga barang" * "jumlah beli"
+	    DISPLAY "total bayar"
+        ELSE
+            STORE "kode barang" AS INTEGER WITH VALUE
+
+STORE "total bayar" WITH "jumlah beli" TIMES "HARGA BARANG"
+DISPLAY "total bayar"
+
+END IF
+DISPLAY "Tampilkan total bayar"
