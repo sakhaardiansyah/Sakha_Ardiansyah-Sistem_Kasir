@@ -1,4 +1,9 @@
-STORE "kode" AS INTEGER WITH VALUE
-STORE "jumlah" AS INTEGER WITH VALUE
-STORE "harga" AS INTEGER WITH VALUE
-STORE "total" AS INTEGER WITH 0
+STORE "kode barang" AS INTEGER WITH VALUE
+STORE "jumlah beli" AS INTEGER WITH VALUE
+STORE "harga barang" AS INTEGER WITH VALUE
+STORE "total bayar" AS INTEGER WITH 0
+
+IF "kode barang" SAME WITH "3"
+    STORE "harga barang" WITH "120000"
+	STORE "total bayar" WITH "harga barang" * "jumlah beli"
+	DISPLAY "total bayar"
