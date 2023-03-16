@@ -17,3 +17,6 @@ IF "kode barang" SAME WITH "3"
 
 STORE "total bayar" WITH "jumlah beli" TIMES "HARGA BARANG"
 DISPLAY "total bayar"
+
+END IF
+DISPLAY "Tampilkan total bayar"
