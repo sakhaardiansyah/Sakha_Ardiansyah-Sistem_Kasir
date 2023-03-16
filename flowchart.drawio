@@ -37,7 +37,10 @@
                 <mxCell id="10" value="Masukkan jumlah beli&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="555" y="370" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Hitung sub_total = jumlah beli * harga barang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Hitung total bayar = jumlah beli * harga barang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="365.5" y="540" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="Harga = 120000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -90,6 +93,9 @@
                             <mxPoint x="210" y="570"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Tampilkan total bayar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="640" width="145" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
